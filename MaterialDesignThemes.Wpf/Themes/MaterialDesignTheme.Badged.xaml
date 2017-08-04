@@ -39,10 +39,10 @@
                                               SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                         </Border>
                         <Border x:Name="PART_BadgeContainer" 
-                                CornerRadius="9" Background="{TemplateBinding BadgeBackground}"                                 
-                                MinWidth="18" MinHeight="18"                                
+                                CornerRadius="7" Background="{TemplateBinding BadgeBackground}"                                 
+                                MinWidth="14" MinHeight="14"                                
                                 HorizontalAlignment="Left" VerticalAlignment="Top" Padding="2"
-                                TextElement.FontSize="11"
+                                TextElement.FontSize="8"
                                 TextElement.FontWeight="DemiBold"
                                 RenderTransformOrigin=".5,.5"
                                 Visibility="{TemplateBinding IsBadgeSet, Converter={StaticResource BooleanToVisibilityConverter}}">
