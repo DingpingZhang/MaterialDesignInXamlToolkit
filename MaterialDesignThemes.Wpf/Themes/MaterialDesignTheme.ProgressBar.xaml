@@ -23,10 +23,10 @@
                                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
                             </DoubleAnimationUsingKeyFrames>
-                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="TemplateRoot">
+                            <!--<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="TemplateRoot">
                                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
-                            </DoubleAnimationUsingKeyFrames>
+                            </DoubleAnimationUsingKeyFrames>-->
                         </Storyboard>
                         <Storyboard x:Key="OnLoadedNoAnimation">
                             <DoubleAnimation Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="TemplateRoot" To="1" Duration="0" />
@@ -37,7 +37,7 @@
                     <Grid x:Name="TemplateRoot" RenderTransformOrigin="0,0.5" Opacity="0">
                         <Grid.RenderTransform>
                             <TransformGroup>
-                                <ScaleTransform ScaleX="0" ScaleY="0" />
+                                <ScaleTransform ScaleX="0" ScaleY="1" />
                                 <SkewTransform/>
                                 <RotateTransform/>
                                 <TranslateTransform/>
